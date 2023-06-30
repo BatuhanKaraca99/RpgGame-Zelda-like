@@ -6,12 +6,14 @@ public enum PlayerState
 {
     walk,
     attack,
-    interact
+    interact,
+    stagger,
+    idle
 }
 
 public class PlayerMovement : MonoBehaviour
 {
-    public PlayerState currentstate;
+    public PlayerState currentState;
     public float speed;
     private Rigidbody2D myRigidbody;
     private Vector3 change;
@@ -22,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         Application.targetFrameRate = 60;
-        currentstate = PlayerState.walk;
+        currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         animator.SetFloat("moveX", 0);
@@ -38,11 +40,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButton("attack") && currentstate!=PlayerState.attack)
+        if (Input.GetButton("attack") && currentState!=PlayerState.attack
+            && currentState!=PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
         }
-        else if(currentstate == PlayerState.walk)
+        else if(currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             UpdateAnimationAndMove();
         }
@@ -54,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
         yield return null;
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
-        currentstate = PlayerState.walk;
+        currentState = PlayerState.walk;
     }
 
     void UpdateAnimationAndMove()
@@ -77,5 +80,21 @@ public class PlayerMovement : MonoBehaviour
         change.Normalize();
         myRigidbody.MovePosition(
         transform.position + (change * speed * Time.deltaTime) );
+    }
+
+    public void Knock(float knockTime)
+    {
+        StartCoroutine(KnockCo(knockTime));
+    }
+
+    private IEnumerator KnockCo(float knockTime)
+    {
+        if (myRigidbody != null)
+        {
+            yield return new WaitForSeconds(knockTime);
+            myRigidbody.velocity = Vector2.zero;
+            currentState = PlayerState.idle;
+
+        }
     }
 }
