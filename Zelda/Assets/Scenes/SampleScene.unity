@@ -8454,6 +8454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.4
+  damage: 1
 --- !u!1 &850938226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5760217991795318962, guid: d25b1bba921da7745b1cffecd8eaf450, type: 3}
@@ -24152,10 +24153,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0033981204, y: -0.4315555}
+  m_Offset: {x: -0.03693688, y: -0.3920982}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -24166,7 +24167,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.74271286, y: 0.6747508}
+  m_Size: {x: 0.6677437, y: 0.59583616}
   m_EdgeRadius: 0
 --- !u!114 &1440719814
 MonoBehaviour:
@@ -24181,7 +24182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  health: 2
+  maxHealth: {fileID: 11400000, guid: 33918e53108da334cb8862bf45130397, type: 2}
   enemyName: Larry The Log
   baseAttack: 1
   moveSpeed: 1.5
@@ -24189,6 +24190,7 @@ MonoBehaviour:
   chaseRadius: 4
   attackRadius: 1.2
   homePosition: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!61 &1440719815
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24199,10 +24201,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: -0.041725397, y: -0.12517571}
+  m_Offset: {x: -0.041725397, y: -0.11728406}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -24213,7 +24215,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7785859, y: 1.2792897}
+  m_Size: {x: 0.7785859, y: 1.2635064}
   m_EdgeRadius: 0
 --- !u!114 &1440719816
 MonoBehaviour:
@@ -24229,6 +24231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 4
   knockTime: 0.2
+  damage: 0
 --- !u!1 &1582038834
 GameObject:
   m_ObjectHideFlags: 0
@@ -24344,6 +24347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.4
+  damage: 1
 --- !u!1 &1707024531
 GameObject:
   m_ObjectHideFlags: 0
@@ -24421,6 +24425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.4
+  damage: 1
 --- !u!1 &1726730362
 GameObject:
   m_ObjectHideFlags: 0
@@ -24779,6 +24784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.4
+  damage: 1
 --- !u!1 &2082910105
 GameObject:
   m_ObjectHideFlags: 0
