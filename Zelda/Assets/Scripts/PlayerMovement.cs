@@ -91,6 +91,11 @@ public class PlayerMovement : MonoBehaviour
             playerHealthSignal.Raise();
             StartCoroutine(KnockCo(knockTime));
         }
+        else
+        {
+            this.gameObject.SetActive(false);
+        }
+
     }
 
     private IEnumerator KnockCo(float knockTime)
