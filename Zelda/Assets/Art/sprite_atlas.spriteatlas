@@ -663,6 +663,7 @@ SpriteAtlas:
   - {fileID: 443000314, guid: 9703ce3b9e039ed4bb2cc2993a6ed3e9, type: 3}
   - {fileID: 1824723747, guid: 9703ce3b9e039ed4bb2cc2993a6ed3e9, type: 3}
   - {fileID: 21300000, guid: edf3b78c1841e664385be710aae6f30e, type: 3}
+  - {fileID: 21300000, guid: 2efe9c0ecd247e04086d9751539dfe8f, type: 3}
   - {fileID: -1998591122, guid: f03f61aebffd5ad42a34cf7b7acec79b, type: 3}
   - {fileID: 905266971, guid: f03f61aebffd5ad42a34cf7b7acec79b, type: 3}
   - {fileID: -339003517, guid: f03f61aebffd5ad42a34cf7b7acec79b, type: 3}
@@ -2350,6 +2351,7 @@ SpriteAtlas:
   - log_21
   - log_22
   - font
+  - door
   - Overworld_827
   - Overworld_837
   - Overworld_847
