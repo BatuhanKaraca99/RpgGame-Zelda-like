@@ -23716,6 +23716,7 @@ MonoBehaviour:
   enemyName: Larry The Log
   baseAttack: 1
   moveSpeed: 1.5
+  deathEffect: {fileID: 1264342892803839781, guid: c7c300c230543634693a04afe26efc8f, type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 554171974}
   chaseRadius: 4
@@ -85976,6 +85977,7 @@ MonoBehaviour:
   enemyName: Larry The Log
   baseAttack: 1
   moveSpeed: 1.5
+  deathEffect: {fileID: 1264342892803839781, guid: c7c300c230543634693a04afe26efc8f, type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 554171974}
   chaseRadius: 4
@@ -87100,6 +87102,7 @@ MonoBehaviour:
   enemyName: Larry The Log
   baseAttack: 1
   moveSpeed: 1.5
+  deathEffect: {fileID: 1264342892803839781, guid: c7c300c230543634693a04afe26efc8f, type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 554171974}
   chaseRadius: 4
@@ -87406,6 +87409,7 @@ MonoBehaviour:
   enemyName: Larry The Log
   baseAttack: 1
   moveSpeed: 1.5
+  deathEffect: {fileID: 1264342892803839781, guid: c7c300c230543634693a04afe26efc8f, type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 554171974}
   chaseRadius: 4
@@ -87796,6 +87800,7 @@ MonoBehaviour:
   enemyName: Larry The Log
   baseAttack: 1
   moveSpeed: 1.5
+  deathEffect: {fileID: 1264342892803839781, guid: c7c300c230543634693a04afe26efc8f, type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 554171974}
   chaseRadius: 4
@@ -88051,6 +88056,7 @@ MonoBehaviour:
   enemyName: Larry The Log
   baseAttack: 1
   moveSpeed: 1.5
+  deathEffect: {fileID: 1264342892803839781, guid: c7c300c230543634693a04afe26efc8f, type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 554171974}
   chaseRadius: 4
@@ -88604,6 +88610,7 @@ MonoBehaviour:
   enemyName: Larry The Log
   baseAttack: 1
   moveSpeed: 1.5
+  deathEffect: {fileID: 1264342892803839781, guid: c7c300c230543634693a04afe26efc8f, type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 554171974}
   chaseRadius: 4
@@ -88989,7 +88996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5760217991795318963, guid: d25b1bba921da7745b1cffecd8eaf450, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5760217991795318963, guid: d25b1bba921da7745b1cffecd8eaf450, type: 3}
       propertyPath: m_SortingLayerID
@@ -89375,6 +89382,7 @@ MonoBehaviour:
   enemyName: Patrol Log
   baseAttack: 1
   moveSpeed: 2
+  deathEffect: {fileID: 1264342892803839781, guid: c7c300c230543634693a04afe26efc8f, type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 3
