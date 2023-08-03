@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf6a1d23344fece4490d357167e0e6a1, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: bae9d1cf592ef4846aa7540382ae5840, type: 3}
+  m_Name: ReceivedCoin
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items: []
-  numberOfKeys: 0
-  coins: 0
+  listeners: []
