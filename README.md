@@ -1,7 +1,7 @@
 # RpgGame-Zelda-like
 JRPG tarzı 2D bir oyun denemesi. Builds klasörünü indirerek, Zelda.exe dosyasından oyunu siz de test edebilirsiniz. Yönler WASD ya da ok tuşları,etkileşim ve attack için Space tuşunu kullanın.Ev ve Dungeon(Mağara) içerisine giriş-çıkış sağlanabiliyor.<br><br>
 
-Youtube: https://www.youtube.com/watch?v=97jLI0i8kAA<br>
+Youtube: https://www.youtube.com/watch?v=97jLI0i8kAA <br>
 Test 1 <br>
 https://github-production-user-asset-6210df.s3.amazonaws.com/47457138/247550112-f185cd59-0faf-4a5e-835f-b45143f6e095.mp4 <br>
 Test 2 <br>
